@@ -6,9 +6,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Car {
-    private int price;
-    private int weight;
-    private int speed;
+    private double price;
+    private double weight;
+    private double speed;
 
     @Override
     public String toString() {
